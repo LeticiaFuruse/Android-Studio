@@ -86,4 +86,16 @@
         app:cornerRadius="5dp"
         android:onClick="ListaFixa"
         />
+
+    <Button
+        android:id="@+id/Carregamento"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Tela Carregamento"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#8B0000"
+        app:cornerRadius="5dp"
+        android:onClick="Carregamento"
+        />
 </LinearLayout>

@@ -57,4 +57,9 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this,ListaFixa::class.java)
         startActivity(intent)
     }
+
+    fun Carregamento(view: View){
+        var intent = Intent(this,Carregamento()::class.java)
+        startActivity(intent)
+    }
 }
