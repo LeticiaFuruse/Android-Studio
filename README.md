@@ -17,3 +17,10 @@ Este é um aplicativo Android desenvolvido em Kotlin usando Android Studio. O pr
 - [Android Studio](https://developer.android.com/studio) como IDE  
 - Android SDK  
 - Gradle para gerenciamento de build  
+
+## Clone este repositório
+
+Para clonar este repositório, use o seguinte comando:
+
+```bash
+git clone https://github.com/seu-usuario/MeuSegundoApp.git
