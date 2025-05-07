@@ -9,7 +9,7 @@ Este é um aplicativo Android desenvolvido em Kotlin usando Android Studio. O pr
 - Envio e carregamento de dados entre telas  
 - Lista dinâmica e lista fixa  
 - Exibição de imagens (ex: Pitty, Caetano)  
-- Interface com várias telas para prática de navegação  
+- Tela App Music
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -24,3 +24,5 @@ Para clonar este repositório, use o seguinte comando:
 
 ```bash
 git clone https://github.com/seu-usuario/MeuSegundoApp.git
+
+
