@@ -62,7 +62,7 @@
                 android:layout_gravity="center"
                 android:backgroundTint="#00FFFFFF"
                 android:gravity="center"
-                app:icon="@drawable/lupa_provisoria"
+                app:icon="@drawable/search_1"
                 app:iconTint="#80FFFFFF" />
 
             <EditText
@@ -152,12 +152,13 @@
                 android:backgroundTint="#7F595959"
                 android:layout_gravity="center"
                 app:cornerRadius="0dp"
-
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="btnPlayMusic"
+                tools:ignore="OnClick">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/logo_ite"
+                    android:src="@mipmap/pitty_1_foreground"
 
                     />
                 <TextView
@@ -167,7 +168,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
                     android:textColor="#fff"
-                    android:text="Caetano Veloso 1968"/>
+                    android:text="Admiravel chip novo"/>
 
             </LinearLayout>
 
@@ -182,7 +183,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/img_caetano_2"
+                    android:src="@mipmap/pitty_2_foreground"
                     />
                 <TextView
                     android:layout_width="match_parent"
@@ -191,7 +192,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
                     android:textColor="#fff"
-                    android:text="Efertorio"/>
+                    android:text="Anacrônico"/>
             </LinearLayout>
 
 
@@ -206,7 +207,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/img_caetano_3"
+                    android:src="@mipmap/pitty_3_foreground"
                     />
                 <TextView
                     android:layout_width="match_parent"
@@ -215,8 +216,9 @@
                     android:layout_gravity="center"
                     android:fontFamily="cursive"
                     android:textColor="#fff"
+                    android:textSize="20dp"
                     android:layout_margin="10dp"
-                    android:text="Estrangeiro 1989"/>
+                    android:text="Pulsos"/>
 
             </LinearLayout>
 
@@ -232,7 +234,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/img_caetano_4"
+                    android:src="@mipmap/pitty_4_foreground"
                     />
                 <TextView
                     android:layout_width="match_parent"
@@ -241,7 +243,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
                     android:textSize="25dp"
-                    android:text="Transa"
+                    android:text="Espelhos"
                     android:textColor="#fff"
                     android:textStyle="normal" />
             </LinearLayout>
@@ -257,7 +259,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/img_caetano_5"
+                    android:src="@mipmap/pitty_5_foreground"
                     />
                 <TextView
                     android:layout_width="match_parent"
@@ -267,7 +269,7 @@
                     android:layout_margin="10dp"
                     android:textSize="25dp"
                     android:textColor="#fff"
-                    android:text="Transa"
+                    android:text="Pitty diva"
                     android:textStyle="normal" />
             </LinearLayout>
 

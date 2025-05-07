@@ -15,6 +15,9 @@
         android:theme="@style/Theme.MeuSegundoApp"
         tools:targetApi="31">
         <activity
+            android:name=".play_spotfy"
+            android:exported="false" />
+        <activity
             android:name=".MenuSpotfy"
             android:exported="false" />
         <activity
