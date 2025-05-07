@@ -62,4 +62,10 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this,Carregamento()::class.java)
         startActivity(intent)
     }
+    fun btnAppMusic(view: View){
+        var intent = Intent(this,MenuSpotfy()::class.java)
+        startActivity(intent)
+    }
+
+
 }

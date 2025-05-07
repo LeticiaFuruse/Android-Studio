@@ -98,4 +98,16 @@
         app:cornerRadius="5dp"
         android:onClick="Carregamento"
         />
+
+    <Button
+        android:id="@+id/btnMusica"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="APP MUSIC"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#8B0000"
+        app:cornerRadius="5dp"
+        android:onClick="btnAppMusic"
+        />
 </LinearLayout>

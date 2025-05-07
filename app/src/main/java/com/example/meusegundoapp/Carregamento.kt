@@ -2,6 +2,7 @@ package com.example.meusegundoapp
 
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -10,13 +11,16 @@ import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
 
 class Carregamento : AppCompatActivity() {
+    lateinit var txtURL: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_carregamento)
 
     }
     fun CarregarImagem(view:View){
-        var imagemCarregada = findViewById<ImageView>(R.id.imagemCarregada)
-        Glide.with(this).load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzZk8UDlzG3EZdIkYxz7XS53vvQqJNdU7cYQ&s").into(imagemCarregada)
+        txtURL = findViewById(R.id.txtURL)
+        var url = txtURL.text.toString()
+        var imgDinamica = findViewById<ImageView>(R.id.imgDinamica)
+        Glide.with(this).load(url).into(imgDinamica)
     }
 }
