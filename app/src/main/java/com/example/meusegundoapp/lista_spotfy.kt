@@ -18,7 +18,7 @@ class lista_spotfy : AppCompatActivity() {
         val arrayAdapter:ArrayAdapter<*>
 
         //variavel que receve uma funcao que popula um array
-        val cantores = arrayOf("Teto de Vidro," ,
+        val cantores = arrayOf("Teto de Vidro" ,
             "Equalize",
             "Do Mesmo Lado",
             "Admiravel chip novo",
