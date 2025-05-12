@@ -18,10 +18,17 @@ class lista_spotfy : AppCompatActivity() {
         val arrayAdapter:ArrayAdapter<*>
 
         //variavel que receve uma funcao que popula um array
-        val cantores = arrayOf("teste1," ,
-            "teste2 e o Leonardo",
-            "teste3 di camargo e lucieno",
-            "teste4 e gilmar")
+        val cantores = arrayOf("Teto de Vidro," ,
+            "Equalize",
+            "Do Mesmo Lado",
+            "Admiravel chip novo",
+            "O Lobo",
+            "Temporal",
+            "Mascara",
+            "Emboscada",
+            "So de Passagem"
+
+        )
         //conexao do front com o back
         var lista_spotfy = findViewById<ListView>(R.id.lista_spotfy) // <-- id do botao listview em activity list
 

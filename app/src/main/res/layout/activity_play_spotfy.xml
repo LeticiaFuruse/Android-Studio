@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,9 +8,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".play_spotfy"
+    android:background="@color/black">
 
-    android:background="@color/black"
-    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -154,24 +157,77 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:icon="@drawable/skip_previous_1"
-            />
+        android:layout_gravity="center"
+        android:gravity="center">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
-            app:icon="@drawable/pause_circulo"
-            />
+            android:backgroundTint="#000000"
+            app:icon="@drawable/skip_previous_1" />
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
-            app:icon="@drawable/skip_next_1"
-            />
+            android:backgroundTint="#000000"
+            app:icon="@drawable/pause_circulo" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            app:icon="@drawable/skip_next_1" />
 
     </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="70dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#000000"
+            android:gravity="center"
+            android:text="musicas"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.3" />
+
+        <Button
+            android:onClick="btnListarMusicas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:text="musicas"
+            android:textColor="#000000" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#000000"
+            android:gravity="center"
+            android:text="musicas"
+            android:textColor="#FDFDFD" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
