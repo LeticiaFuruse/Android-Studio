@@ -8,21 +8,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000000"
+    android:background="@color/black"
     tools:context=".lista_spotfy">
 
-    <ListView
-        android:id="@+id/lista_spotfy"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="16dp"
-        android:textColor="#CCCCCC"
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
         android:layout_gravity="center"
-        android:textAlignment="center"
-        android:textSize="18sp"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/pitty_1_foreground"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            app:icon="@drawable/seta_voltar"
+            app:iconTint="@color/white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Musicas do artista"
+            android:textSize="20dp"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#ffff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.3" />
+        <Button
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/black"
+            app:icon="@drawable/baseline_add_24"
+            app:iconTint="@color/white" />
+
+    </LinearLayout>
 
 
-        android:divider="#3A3A3A"
-        android:dividerHeight="1dp"
-        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lista_spotfy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/fundo_card"
+            android:backgroundTint="@color/white" />
+
+    </LinearLayout>
+
 </LinearLayout>

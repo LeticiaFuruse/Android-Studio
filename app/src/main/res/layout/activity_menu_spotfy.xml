@@ -55,7 +55,10 @@
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
             >
-
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.3" />
             <Button
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
@@ -65,17 +68,22 @@
                 app:icon="@drawable/search_1"
                 app:iconTint="#80FFFFFF" />
 
+
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:hint="Pesquise musicas e muito mais"
-                android:textColorHint="#80FFFFFF"
                 android:padding="10dp"
+                android:textColorHint="#80FFFFFF"
                 android:textSize="10dp"
-                app:cornerRadius="5dp"
-                />
+                app:cornerRadius="5dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.3" />
         </LinearLayout>
 
 
@@ -125,7 +133,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:padding="10dp"
             android:fontFamily="@font/aclonica"
             android:textColor="#fff"
@@ -139,7 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             app:cornerRadius="0dp"
             android:layout_gravity="left"
             android:gravity="left"
@@ -156,8 +164,8 @@
                 android:onClick="btnPlayMusic"
                 tools:ignore="OnClick">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@mipmap/pitty_1_foreground"
 
                     />
@@ -181,8 +189,8 @@
                 android:backgroundTint="#7F595959"
                 android:layout_margin="10dp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@mipmap/pitty_2_foreground"
                     />
                 <TextView
@@ -205,8 +213,8 @@
                 android:backgroundTint="#7F595959"
                 android:layout_margin="10dp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@mipmap/pitty_3_foreground"
                     />
                 <TextView
@@ -232,8 +240,8 @@
                 android:backgroundTint="#7F595959"
                 android:layout_margin="10dp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@mipmap/pitty_4_foreground"
                     />
                 <TextView
@@ -257,8 +265,8 @@
                 android:backgroundTint="#7F595959"
                 android:layout_margin="10dp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@mipmap/pitty_5_foreground"
                     />
                 <TextView
